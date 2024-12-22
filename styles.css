@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center; /* Posisi horizontal */
+    align-items: center; /* Posisi vertikal */
+    background-image: url('titanic.png'); /* Ganti dengan path gambar */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+.center-content {
+    text-align: center;
+}
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #ebe39f; /* Warna tombol */
+    color: rgb(103, 127, 192);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+button:hover {
+    background-color: #f3ab68; /* Warna tombol saat hover */
+}
